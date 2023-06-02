@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(4, 36, 25);
+  height: 550px;
+  border: 50px solid #203f34;
+  border-bottom: none;
+  /* overflow: hidden; */
+}
+.ajay-fra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.first-todo {
+  position: relative;
+  margin: 80px 0 50px 0;
+}
+.first-todo input {
+  background-color: rgb(9, 104, 71);
+  height: 80px;
+  width: 600px;
+  border: 2px solid rgb(5, 255, 167);
+  border-radius: 10%;
+  font-size: 30px;
+  color: rgb(115, 253, 205);
+  margin-right: 5px;
+}
+.first-todo input:focus {
+  outline: none;
+}
+.btn {
+  background-color: rgb(9, 104, 71);
+  height: 80px;
+  width: 100px;
+  border: 2px solid rgb(5, 255, 167);
+  border-radius: 10%;
+  font-size: 30px;
+  color: rgb(115, 253, 205);
+}
+.btn:active {
+  font-size: 33px;
+  border: 0px solid rgb(5, 255, 167);
+}

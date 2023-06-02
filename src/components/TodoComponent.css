@@ -1,0 +1,42 @@
+.todoCom {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-bottom: 30px;
+}
+.todolist {
+  display: flex;
+  background-color: rgb(9, 104, 71);
+  height: fit-content;
+  width: 600px;
+  border: 2px solid rgb(5, 255, 167);
+  border-radius: 5%;
+  font-size: 20px;
+  color: rgb(115, 253, 205);
+  justify-content: center;
+  align-items: center;
+  padding: 12px 5px 12px 5px;
+  margin-right: 5px;
+  overflow-x: scroll;
+  box-sizing: border-box;
+}
+.btnn {
+  background-color: rgb(9, 104, 71);
+  height: 50px;
+  width: 70px;
+  margin-top: 20px;
+  border: 2px solid rgb(5, 255, 167);
+  border-radius: 10%;
+  font-size: 30px;
+  color: rgb(115, 253, 205);
+}
+.btnn:active {
+  border: 0px solid rgb(5, 255, 167);
+}
+
+.btnn:active img {
+  bottom: 1px;
+  left: 10px;
+  height: 40px;
+  width: 40px;
+}
